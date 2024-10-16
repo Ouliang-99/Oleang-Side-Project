@@ -1,5 +1,5 @@
 import "./App.css";
-import Hamburger from 'hamburger-react'
+import Hamburger from "hamburger-react";
 import { useState } from "react";
 
 function HamburgerMenu() {
@@ -34,7 +34,6 @@ function HamburgerMenu() {
     </div>
   );
 }
-
 
 function NavBar() {
   return (
@@ -71,7 +70,7 @@ function NavBar() {
         <div className=" block sm:hidden">
           <HamburgerMenu />
         </div>
-      </div>  
+      </div>
     </nav>
   );
 }
@@ -93,8 +92,8 @@ function HeroSection() {
       <div className="w-full sm:w-[30rem] h-[20rem] sm:h-[40rem] overflow-hidden rounded-lg shadow-2xl">
         <img
           className="w-full h-full object-cover"
-          src="src\assets\img\oleang-img1.jpg"
-          alt="รูปคนเสื้อสีดำ"
+          src="public\oleang-img1.jpg"
+          alt="Oleang"
         />
       </div>
       <div className="w-full sm:w-[20rem] h-auto flex flex-col p-4 rounded-lg">
