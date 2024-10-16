@@ -92,7 +92,7 @@ function HeroSection() {
       <div className="w-full sm:w-[30rem] h-[20rem] sm:h-[40rem] overflow-hidden rounded-lg shadow-2xl">
         <img
           className="w-full h-full object-cover"
-          src="/oleang-img1.jpg"
+          src="https://img5.pic.in.th/file/secure-sv1/oleang-img1.jpg"
           alt="Oleang"
         />
       </div>
