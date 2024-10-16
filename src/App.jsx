@@ -55,7 +55,7 @@ function NavBar() {
 
 function HeroSection() {
   return (
-    <section className="flex flex-col sm:flex-row justify-center items-center gap-10 mt-10 sm:mt-44 px-4">
+    <main className="flex flex-col sm:flex-row justify-center items-center gap-10 mt-10 sm:mt-44 px-4">
       <div className="w-full sm:w-[25rem] h-auto flex flex-col items-center sm:items-end p-5 rounded-lg">
         <h1 className="text-[2rem] sm:text-[3.0rem] font-bold">Stay</h1>
         <h1 className="text-[2rem] sm:text-[3.0rem] font-bold">Informed,</h1>
@@ -87,7 +87,7 @@ function HeroSection() {
           shelter, helping cats find loving homes.
         </p>
       </div>
-    </section>
+    </main>
   );
 }
 
