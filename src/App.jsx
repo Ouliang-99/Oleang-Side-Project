@@ -32,7 +32,7 @@ function NavBar() {
         <button className="bg-black border-[0.01rem] rounded-full px-4 sm:px-6 font-semibold text-white hidden sm:block">
           Sign up
         </button>
-        <button className="blockhidden">
+        <button className="block sm:hidden">
           <svg
             width="24"
             height="24"
