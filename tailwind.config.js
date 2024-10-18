@@ -8,7 +8,10 @@ export default {
       },
       colors: {
         brown: {
-          100: "#f9f8f6",
+          100: "#F9F8F6",
+          200: "#EFEEEB",
+          300: "#DAD6D1",
+          400: "#75716B",
         },
       },
     },
